@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 <body>
- <h1>Hola Mundo</h1>
+ <h1>Hola Mundo que hace</h1>
 
  <div class="hola">
  	
