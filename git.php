@@ -136,6 +136,11 @@ git commit -b "Version 1.0"
 git config --global alias.minilog "log --oneline --graph --all"
 git minilog
 
+
+<!-- Crear archivo y mandarlo al editor -->
+
+vim h1.php
+
 <!-- Volver en el tiempo-->
 
 git reset --hard dda6c08
@@ -148,7 +153,7 @@ git reset --mixed dda6c08
 
 rm -rf example 
 
-git clone https://github.com/misterernest/example.git
+git clone <https://github.com/misterernest/example.git>
 
 cd example/
 
@@ -159,3 +164,16 @@ git pull origin master
 <!-- Enviar repo -->
 
 git push origin master
+
+<!-- Conectar con github (nuevo repositorio)-->
+
+git remote add origin https://github.com/misterernest/example.git
+
+<!-- Muestra los repos que hay en el servidor-->
+
+git remote -v 
+
+<!-- Eliminar La conexion con github-->
+
+git remote remove origin
+
